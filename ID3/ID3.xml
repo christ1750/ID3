@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GBK"?>
+
+<决策树>
+	<outlook value="sunny">
+		<humidity value="high">no</humidity>
+		<humidity value="normal">yes</humidity>
+	</outlook>
+	<outlook value="overcast">yes</outlook>
+	<outlook value="rainy">
+		<windy value="TRUE">no</windy>
+		<windy value="FALSE">yes</windy>
+	</outlook>
+</决策树>
